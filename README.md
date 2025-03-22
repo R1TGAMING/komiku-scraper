@@ -1,4 +1,4 @@
-# Project Title
+# Komiku Scraper
 
 komiku-scraper unofficial scrape from komiku.id website
 
