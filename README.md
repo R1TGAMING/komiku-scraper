@@ -40,3 +40,5 @@ python.exe run.py
 
 * 0.1
     * Initial Release
+* 0.2
+    * Wrong Input in Latest Chapter

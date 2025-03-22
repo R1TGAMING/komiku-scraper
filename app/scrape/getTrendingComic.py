@@ -22,7 +22,7 @@ def getTrendingComic(url):
             "href"
         )
         genre = item.find("div", {"class": "ls2j"}).find("span").text
-        latestChapter = item.find("div", {"class": "ls2j"}).find("a").text
+        latestChapter = item.find("div", {"class": "ls2j"}).findAll("a")[1].text
         srcLatestChapter = "https://komiku.id/" + item.find(
             "div", {"class": "ls2j"}
         ).find("a").get("href")
