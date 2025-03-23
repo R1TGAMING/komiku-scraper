@@ -4,13 +4,13 @@ import json
 from .getInformationComic import getInformationComic
 
 
-def getTrendingComic(url):
+def getRecommendationsComic(url):
     res = requests.get(url)
     soup = BeautifulSoup(res.text, "html.parser")
     data = []
 
     findElement = (
-        soup.find(id="Trending_Komik")
+        soup.find(id="Rekomendasi_Komik")
         .find("div", {"class": "perapih"})
         .find("div", {"class": "ls112"})
         .find("div", {"class": "ls12"})

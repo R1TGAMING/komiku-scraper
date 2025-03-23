@@ -42,3 +42,6 @@ python.exe run.py
     * Initial Release
 * 0.2
     * Wrong Input in Latest Chapter
+* 0.3
+    * Add Recomendations Comic
+    * Add Informations Comic
