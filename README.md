@@ -38,10 +38,13 @@ python.exe run.py
 
 ## Version History
 
-* 0.1
+* 0.1  
     * Initial Release
 * 0.2
     * Wrong Input in Latest Chapter
 * 0.3
     * Add Recomendations Comic
     * Add Informations Comic
+* 0.4
+    * Add GetChapter Comic
+    * Fix Try Exception 
