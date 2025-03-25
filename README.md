@@ -1,6 +1,6 @@
 # Komiku Scraper
 
-komiku-scraper unofficial scrape from komiku.id website
+unofficial scrape from komiku.id website
 
 ## Description
 
@@ -35,7 +35,10 @@ pip install -r requirements.txt
 ```
 python.exe run.py
 ```
-
+* To access the results
+```
+http://localhost:5000/
+```
 ## Version History
 
 * 0.1  
